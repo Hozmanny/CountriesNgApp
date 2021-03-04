@@ -1,0 +1,7 @@
+li {cursor: pointer;}
+li:hover, li::after {
+    background-color: rgb(37, 66, 140);
+    color: white;
+    /* transition: .7s; */
+    transition: .7s ease-in-out;
+}

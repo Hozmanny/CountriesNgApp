@@ -1,0 +1,7 @@
+<form action="" autocomplete="off" (ngSubmit)="buscar()">
+    <input  type="text" name="term" 
+            [placeholder]="placeHolder"
+            class="form-control" 
+            [(ngModel)]="term" 
+            (input)="pressKey()">
+</form>
